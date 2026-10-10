@@ -793,6 +793,37 @@ section {
   margin: 0 14px;
 }
 
+/* AI Coding 作品：子分组引导 + 可点击外链卡片 */
+.subsection-intro {
+  max-width: 640px;
+  margin: 0 auto 32px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13.5px;
+  line-height: 1.75;
+}
+
+.project-card.web-work {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.web-work-go {
+  margin-top: auto;
+  padding-top: 18px;
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 1px;
+  transition: letter-spacing 0.3s ease;
+}
+
+.project-card.web-work:hover .web-work-go {
+  letter-spacing: 3px;
+}
+
 /* ==========================================
    Education：教育经历
    ========================================== */
@@ -1421,6 +1452,63 @@ footer .heart {
       </div>
 
     </div>
+
+    <!-- 子分组：AI Coding 作品 -->
+    <div class="subsection-label reveal">AI Coding · 数字小作品</div>
+    <p class="subsection-intro reveal">用 AI 做网页（Vibe Coding）的一些小实验——把情绪、文字与 randomness 变成可以交互的网页小工具。点开即玩，无需登录。</p>
+
+    <div class="projects-grid">
+
+      <a class="project-card web-work reveal" href="https://cutiepie030.github.io/side-b-records/" target="_blank" rel="noopener">
+        <div class="project-tag-label">WEB · 01</div>
+        <h3 class="project-title">心事唱片行 · SIDE B</h3>
+        <p class="project-desc">写下此刻的心情或选一种情绪，生成一张专属虚拟唱片，可加贴纸、可保存——把说不清的感受，刻成一张能收藏的声音。</p>
+        <div class="project-tags">
+          <span class="project-tag">情感互动</span>
+          <span class="project-tag">音乐</span>
+          <span class="project-tag">情绪记录</span>
+        </div>
+        <div class="web-work-go">前往体验 →</div>
+      </a>
+
+      <a class="project-card web-work reveal" href="https://cutiepie030.github.io/letters-never-sent/" target="_blank" rel="noopener">
+        <div class="project-tag-label">WEB · 02</div>
+        <h3 class="project-title">未寄出的信</h3>
+        <p class="project-desc">提供信纸、字体、贴纸与封印，写一封永不寄出、只存在本地设备上的信——一个私密的情绪出口与自我表达空间。</p>
+        <div class="project-tags">
+          <span class="project-tag">情感疗愈</span>
+          <span class="project-tag">数字文创</span>
+          <span class="project-tag">本地存储</span>
+        </div>
+        <div class="web-work-go">前往体验 →</div>
+      </a>
+
+      <a class="project-card web-work reveal" href="https://cutiepie030.github.io/moonroom/" target="_blank" rel="noopener">
+        <div class="project-tag-label">WEB · 03</div>
+        <h3 class="project-title">月亮神谕馆 · MOONROOM</h3>
+        <p class="project-desc">塔罗、雷诺曼、月光灵签三种抽签方式，选一个主题抽牌获取指引，支持存图——娱乐与自我探索兼具的互动小馆。</p>
+        <div class="project-tags">
+          <span class="project-tag">互动占卜</span>
+          <span class="project-tag">塔罗</span>
+          <span class="project-tag">艺术化</span>
+        </div>
+        <div class="web-work-go">前往体验 →</div>
+      </a>
+
+      <a class="project-card web-work reveal" href="https://cutiepie030.github.io/paper-fragments/" target="_blank" rel="noopener">
+        <div class="project-tag-label">WEB · 04</div>
+        <h3 class="project-title">随机拼贴诗 · 碎纸诗</h3>
+        <p class="project-desc">把偶然遇见的词拖到画布上拼成专属诗歌，可调整样式、排列并导出 PNG——一个轻量的创意拼诗生成器。</p>
+        <div class="project-tags">
+          <span class="project-tag">创意生成</span>
+          <span class="project-tag">拼贴诗</span>
+          <span class="project-tag">可导出</span>
+        </div>
+        <div class="web-work-go">前往体验 →</div>
+      </a>
+
+    </div>
+
   </div>
 </section>
 
